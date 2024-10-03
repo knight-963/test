@@ -1,0 +1,12 @@
+.nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
