@@ -2,14 +2,38 @@ import styles from "../styles/Footer.module.css"
 
 const Footer =()=>{
     return (
-      <div className={styles.Footer}>
+      <div className="flex justify-center">
 
-        <div className="flex justify-center gap-[50px]">
+        <div className={styles.Footer}>
 
-          <h2>Telegram</h2>
-          <h2>Starbuks</h2>
-          <h2>FeedUp</h2>
-          <h2>Oqtepa Lavash</h2>
+          <img src={"p1.png"} className="h-[50px]" alt="" />
+
+          <div>
+
+            <h2>O нас</h2>
+            <h2>Блог</h2>
+            <h2>Каталог</h2>
+            <h2>Где купить</h2>
+            <h2>Контакты</h2>
+            <h2>find your fit</h2>
+
+          </div>
+
+          <div>
+
+            <h2>tiktok</h2>
+            <h2>instagram</h2>
+            <h2>facebook</h2>
+            <h2>youtube</h2>
+
+          </div>
+
+          <div>
+
+            <h2>Private policy</h2>
+            <h2>Terms & conditions</h2>
+
+          </div>
 
         </div>
 
